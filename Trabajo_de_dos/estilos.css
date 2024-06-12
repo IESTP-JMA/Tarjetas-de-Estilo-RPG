@@ -1,0 +1,97 @@
+Body {
+    Display: flex;
+    Justify-content: center;
+    Align-items: center;
+    Height: 100vh;
+    Background-color: hsl(0, 100%, 98%);
+    Font-family: Arial, sans-serif;
+    Gap: 20px;
+}
+
+.card {
+    Background-color: #fff;
+    Border-radius: 10px;
+    Padding: 20px;
+    Text-align: center;
+    Width: 250px;
+    Display: flex;
+    Flex-direction: column;
+    Justify-content: space-between;
+    Transition: transform 0.3s, box-shadow 0.3s;
+    Cursor: pointer;
+    Box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+    Transform: translateY(-10px);
+    Box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    Border-radius: 10px 10px 0 0;
+    Width: 100%;;
+    Height: 235px;
+}
+
+.card h2 {
+    Color: black;
+    Font-size: 24px;
+    Margin: 10px 0;
+}
+
+.card .class {
+    Color: #777;
+    Font-size: 18px;
+    Margin: 5px 0;
+}
+.class1{
+    Color: rgb(255, 0, 157);
+}
+.class2{
+    Color: orange;
+}
+.class3{
+    Color: lightgreen;
+}
+
+.card .description {
+    Color: black;
+    Font-size: 14px;
+    Margin-top: 10px;
+    Flex-grow: 1;
+}
+.footer {
+    Display: flex;
+    Justify-content: space-between;
+    Align-items: center;
+    Font-size: 14px;
+    Margin-top: 10px;
+    Padding: 10px;
+    Border-radius: 0 0 10px 10px;
+    Text-align: center;
+}
+.card1 {
+    Background-color: white;
+}
+
+.card2 {
+    Background-color: white;
+}
+
+.card3 {
+    Background-color: white;
+}
+.footer1 {
+    Background-color: rgb(255, 0, 157);
+    Color: white;
+}
+
+.footer2 {
+    Background-color: rgba(255, 166, 0, 0.922);
+    Color: white;
+}
+
+.footer3 {
+    Background-color: lightgreen;
+    Color: white;
+} 
